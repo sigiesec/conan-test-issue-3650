@@ -9,7 +9,7 @@ from conans.model.version import Version
 
 class BaseConan(ConanFile):
     name = "Base"
-    generators = "cmake"
+    generators = "cmake_paths"
     version = "0.1.0-unreleased-build.local"
     
     exports_sources = "*"    

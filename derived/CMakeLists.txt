@@ -2,8 +2,7 @@ cmake_minimum_required(VERSION 3.11)
 
 project (Derived)
 
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup(TARGETS)
+include(${CMAKE_BINARY_DIR}/conan_paths.cmake)
 
 find_package(Base)
 
